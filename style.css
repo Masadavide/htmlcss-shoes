@@ -63,4 +63,5 @@ nav{
     padding: 20px 25px;
     margin: 30px;
     text-decoration: none;
+    box-shadow: 5px 5px rgba(0, 0, 0, .5);
 }
