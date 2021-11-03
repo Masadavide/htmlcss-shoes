@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Dela Gothic One', cursive;
 }
 
 .container{
@@ -35,7 +40,7 @@ img{
 }
 
 .container .text{
-    font-size: 90px;
+    font-size: 65px;
     text-align: center;
     color: yellow;
     text-transform: uppercase;
@@ -43,4 +48,19 @@ img{
 
 .terzo .text{
     color: green;
+}
+
+nav{
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    z-index: 1;
+}
+
+.menu{
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px 25px;
+    margin: 30px;
+    text-decoration: none;
 }
